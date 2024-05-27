@@ -3,7 +3,7 @@
 #########################
 
 variable "cluster_name" {
-  default = "eks-quod-qbms-dev"
+  default = "eks-infra-qbms-dev"
 }
 
 variable "aws_region" {
@@ -145,17 +145,17 @@ variable "istio_ingress_max_pods" {
 
 variable "grafana_virtual_service_host" {
   type    = string
-  default = "grafana-qbms-dev.quod.com.br"
+  default = "grafana-qbms-dev.infra.com.br"
 }
 
 variable "kiali_virtual_service_host" {
   type    = string
-  default = "kiali-qbms-dev.quod.com.br"
+  default = "kiali-qbms-dev.infra.com.br"
 }
 
 variable "jaeger_virtual_service_host" {
   type    = string
-  default = "jaeger-qbms-dev.quod.com.br"
+  default = "jaeger-qbms-dev.infra.com.br"
 }
 
 
